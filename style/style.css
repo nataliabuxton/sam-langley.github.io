@@ -1,0 +1,205 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 0 18px 18px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+#title{
+    background-color: black;
+    color: white;
+    margin-bottom: -82px;
+}
+
+/* Top Section */
+
+.maincomp {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 5%;
+}
+
+h1{
+    font-family: monospace;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+.wording{
+    text-align: center;
+    padding-right: 300px;
+}
+
+.container-fluid{
+    padding: 3% 7% 13%;
+}
+#downloadbtn{
+    border-radius: 0%;
+    size: 5px;
+    margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #cbc9c9;
+}
+p{
+    color: #8f8f8f;
+}
+#features{
+    background-color: #110f0f;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;  
+}
+.icon{
+    color: #e1e1e1;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #5b5b5b;
+}
+
+/* Images */
+
+.testimonial-image-kika{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-image-lady{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+ padding: 7% 7% 7% 7%;
+ text-align: center;
+ background-color: #000000;
+ color: #ffffff;
+}
+
+.testimonial-text{
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#press{
+    background-color: #cecece;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 10%;
+    margin: 40px 40px 40px;
+}
+.testname1{
+    font-size: 1.3em;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-style: normal;
+    background-color: #110f0f;
+}
+
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.plantxt{
+    color: #fff;
+}
+
+/* Call To Action */
+
+#cta{
+    background-color: #000000;
+    padding: 5% 3%;
+}
+.ctatext{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.ctabtn{
+        border-radius: 0%;
+        margin-left: 800px;
+        align-items: center;
+        justify-content: center;
+}
+
+
+/* Footer */
+
+.copyright{
+    text-align: center;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 988px) {
+    .maincomp{
+        position: static;
+        box-align: center;
+    }
+    .row{
+        align-items: center;
+        text-align: center;
+    }
+    .ctabtn{
+        border-radius: 0%;
+        margin-left: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1436px){
+    .ctabtn{
+        border-radius: 0%;
+        margin-left: 325px;
+        align-items: center;
+        justify-content: center;
+    }
+}
