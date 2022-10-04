@@ -22,7 +22,8 @@
 
 
 <!-- CONTACT -->
-- ME
+
+-ME
  Natalia - (see CV for email! & contact!)
 
 Project Link: [https://nataliabuxton.github.io/sam-langley.github.io/](https://nataliabuxton.github.io/sam-langley.github.io/)
