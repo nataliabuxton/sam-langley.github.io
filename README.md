@@ -4,8 +4,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/nataliabuxton/NataliasPortfolio">
-    <img src="images/virgo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/nataliabuxton/sam-langley.github.io">
+    <img src="images/programming.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Congrats Page for Sam</h3>
